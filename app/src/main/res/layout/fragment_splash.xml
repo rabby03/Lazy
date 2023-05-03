@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.splash.SplashFragment">
+
+    <View
+        android:id="@+id/lazybd_1"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/lazy_vpn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="597dp"
+        android:gravity="top|center"
+        android:text="Lazy VPN"
+        android:fontFamily="@font/philosopherbold"
+        android:textColor="#FF4026"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/bdix_bypass"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="650dp"
+        android:gravity="top|center"
+        android:text="BDIX Bypass"
+        android:fontFamily="@font/rubik_semi_bold"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        />
+
+</FrameLayout>

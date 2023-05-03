@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/server_name"
+        android:layout_width="61dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:text="ServerName"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/connect"
+        android:layout_width="60dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="225dp"
+        android:layout_alignParentTop="true"
+        android:text="Connect"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/connect_button_rectangle"
+        android:textSize="14sp"
+
+        />
+</LinearLayout>

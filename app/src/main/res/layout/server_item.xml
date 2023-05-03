@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="5dp"
+    android:id="@+id/server_item_view"
+    android:background="@drawable/server_item_background"
+    android:orientation="horizontal"
+    android:gravity="center|top"
+    android:layout_gravity="center">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="24dp"
+            android:background="@drawable/carbon_wifi"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="@font/philosopheregular"
+            android:gravity="center"
+            android:id="@+id/server_name"
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:text="ServerName"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/connect_btn"
+        android:layout_marginTop="15dp"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:text="Connect"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/connect_button_rectangle"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>

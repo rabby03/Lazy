@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    tools:context=".ui.login.LoginFragment">
+
+    <TextView
+        android:id="@+id/lazy_vpn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bruno"
+        android:gravity="center"
+        android:text="Lazy VPN"
+        android:textColor="#FF4026"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:gravity="top|center"
+        android:text="BDIX Bypass"
+        android:fontFamily="@font/philosopherbold"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:gravity="top"
+        android:text="Username/Email:"
+        android:textColor="#000000"
+        android:fontFamily="@font/rubik_semi_bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="248dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="@drawable/search_bg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="303dp"
+        android:gravity="top"
+        android:text="Password:"
+        android:textColor="#000000"
+        android:fontFamily="@font/rubik_semi_bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="331dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="@drawable/search_bg" />
+
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="404dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Login" />
+
+</FrameLayout>
